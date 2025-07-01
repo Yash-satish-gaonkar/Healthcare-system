@@ -1,4 +1,5 @@
 # Healthcare-system
+END-TO-END DATA PIPELINE FOR HEALTHCARE SYSTEM
 
 # Project Overview
 This end-to-end healthcare analytics project demonstrates the use of modern data engineering practices to ingest, transform, model, and analyze healthcare data in Azure. The dataset includes patient visits, hospital details, lab results, and prescriptions.The solution enables healthcare administrators to monitor patient loads, analyze diagnoses, evaluate hospital performance, and proactively flag high-risk patients based on historical data.
