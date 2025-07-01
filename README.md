@@ -48,6 +48,8 @@ Visualize KPIs such as:
 # Solution Architecture
 This project follows the Multi-Hop Architecture approach with three refined data layers:
 
+<p align="center"><img src="Images/Screenshot 2025-07-01 162327.png" width="60%"></p>
+
 1. Bronze Layer (Raw Ingestion)
 Direct copy of CSVs from Blob
 Schema inferred, data written as Delta tables
