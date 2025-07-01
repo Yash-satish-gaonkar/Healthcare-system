@@ -35,12 +35,13 @@ Visualize KPIs such as:
 - Doctor-patient workload trends
 
 # Tools and Technologies Used
- | Component        | Technology Used                        |
-| ---------------- | -------------------------------------- |
-| Data Engineering | Azure Databricks, PySpark, Spark SQL   |
-| Storage          | Azure Blob Storage, Delta Lake         |
-| BI               | Power BI (connected to Gold layer)     |
-| Development      | VS Code, Lucidchart (for architecture) |
+- Azure Databricks
+- Azure Data Lake Storage Gen2 (ADLS)
+- Delta Lake
+- PySpark & Spark SQL
+- Databricks Workflows / Jobs
+- Power BI / Dashboards (optional)
+- GitHub (for version control and collaboration)
 
 
 # Solution Architecture
