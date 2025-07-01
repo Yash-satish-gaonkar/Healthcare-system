@@ -5,19 +5,19 @@ This end-to-end healthcare analytics project demonstrates the use of modern data
 
 # Project Requirements
 1. Data Ingestion
-Load raw CSV files from Azure Blob Storage into Azure Databricks
-Infer schema and store data in Delta format in the Bronze layer
-Enable SQL-based querying using Spark SQL
+- Load raw CSV files from Azure Blob Storage into Azure Databricks
+- Infer schema and store data in Delta format in the Bronze layer
+- Enable SQL-based querying using Spark SQL
 
 2. Data Transformation
-Clean and normalize data (handle nulls, enrich timestamps, unify formats)
-Create structured dimension and fact tables in the Silver layer
-Store curated tables in Delta format with partitioning for efficiency
+- Clean and normalize data (handle nulls, enrich timestamps, unify formats)
+- Create structured dimension and fact tables in the Silver layer
+- Store curated tables in Delta format with partitioning for efficiency
 
 3. Data Modeling
-Model the data using a star schema
-Dimension Tables: Patient, Hospital, Doctor, Date
-Fact Tables: Patient Visits, Lab Results, Prescriptions
+- Model the data using a star schema
+- Dimension Tables: Patient, Hospital, Doctor, Date
+- Fact Tables: Patient Visits, Lab Results, Prescriptions
 
 4. Advanced Analysis
 Identify high-risk patients based on:
@@ -33,6 +33,15 @@ Visualize KPIs such as:
 - High-risk patient distribution
 - Hospital performance metrics
 - Doctor-patient workload trends
+
+# Tools and Technologies Used
+ | Component        | Technology Used                        |
+| ---------------- | -------------------------------------- |
+| Data Engineering | Azure Databricks, PySpark, Spark SQL   |
+| Storage          | Azure Blob Storage, Delta Lake         |
+| BI               | Power BI (connected to Gold layer)     |
+| Development      | VS Code, Lucidchart (for architecture) |
+
 
 # Solution Architecture
 This project follows the Multi-Hop Architecture approach with three refined data layers:
@@ -63,3 +72,5 @@ The project performs several key analyses using spark.sql:
     - Predict and manage load
     - Identify critical patients early
     - Track performance at the hospital and regional level
+
+
